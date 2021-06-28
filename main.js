@@ -16,7 +16,7 @@ console.log(NewWidth)
 if (width < 992) {
     document.getElementById("myCanvas").width = NewWidth;
     document.getElementById("myCanvas").height = NewHieght;
-    document.body.style.overflow = hidden;
+    document.body.style.overflow = "hidden";
 }
 
 canvas.addEventListener("touchstart", touchStart);
